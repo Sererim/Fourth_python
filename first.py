@@ -1,3 +1,4 @@
+# Напишите функцию для транспонирования матрицы
 def transpose(matrix) -> None:
     t_matrix = [[matrix[row][col] for row in range(len(matrix))]
                 for col in range(len(matrix[0]))]
